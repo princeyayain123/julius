@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Example</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+   
+    <header class="main-header">
+        <nav class="navbar header-nav navbar-expand-lg">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <h4 class="mb-0">Julius <span class="text-primary">Yayain</span></h4>
+                </a>
+            
+
+            <div class="navbar-collapse justify-content-end" id="navbar-collapse-toggle">
+                <ul class="navbar-nav mx-auto">
+                    <li>
+                        <a data-scroll-nav="0" href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                        <a data-scroll-nav="1" href="#home" class="nav-link">About</a>
+                    </li>
+                    <li>
+                        <a data-scroll-nav="2" href="#home" class="nav-link">Projects</a>
+                    </li>
+                    <li>
+                        <a data-scroll-nav="3" href="#home" class="nav-link">Skills</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="ms-auto d-none d-lg-block">
+                <a class="colored-btn" href="#contract">Contact Now</a>
+            </div>
+
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+                
+            </button>
+        </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="home-section bg-gray hidden" data-scroll-index="0">
+            <div class="container">
+                <div class="anim-elements">
+                    <div class="anim-element">1</div>
+                    <div class="anim-element">2</div>
+                    <div class="anim-element">3</div>
+                    <div class="anim-element">4</div>
+                    <div class="anim-element">5</div>
+                </div>
+                <div class="row gy-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="home-intro text-center text-lg-start">
+                            <h6>Hi, My name is Julius</h6>
+                            <h1>I'm a <span class="auto-type">Web Developer</span></h1>
+                            <a href="assets/Resume_Yayain, Julius.pdf" class="colored-btn">Resume</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0">
+                        <div class="home-image text-center">
+                            <img src="profile.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section hidden" data-scroll-index="1">
+            <div class="container">
+                <div class="row  align-items-center">
+                    <div class="col-lg-6 text-center">
+                        <img src="about.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="about-text">
+                            <h3 class="h1 mb-3 text-dark fw-semibold">About Me</h3>
+                            
+                        </div>
+                        <div class="subtitle">
+                            I am Julius Anthony R. Yayain. I graduated cum laude with a Bachelor of Science in Computer Engineering at Southern Luzon State University.I excel in programming such as Java, Python, C++, and JavaScript. Also, other libraries such as Swing, Tkinter, MatPlotLib, JQuery, and BootStrap. Things that I learned when I was in college are data structure, object-oriented programming, web development, graphic user interface, and data visualization. My internship was at Crescendo Collective which helped my career as a front-end developer to fix my hierarchy text and the alignment of the contents.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id = "portfolio" class="section bg-gray hidden" data-scroll-index="2">
+            <div class="container projects">
+                <div class="section-heading">
+                    <h1>Latest Projects</h1>
+                </div>
+                <div class="portfolio-box">
+                    <div class="row bg-3 pb-3 mb-5 pb-lg-3 mb-lg-3 gy-4 justify-content-around align-items-center">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-img">
+                                <img class="project-img" src="assets/project-2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-text">
+                                <span>Shopify Design</span>
+                                <h4>Jullie's Pie Shop</h4>
+                                <p>This website is created using Content Management System.</p>
+                                <a href="#" class="colored-btn mt-1">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row bg-3 pb-3 mb-5 pb-lg-3 mb-lg-3 gy-4 justify-content-around align-items-center flex-row-reverse">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-img">
+                                <img class="project-img" src="assets/project-3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-text">
+                                <span>Java Project</span>
+                                <h4>Four Stack Game</h4>
+                                <p>A game that dropping colored token to create a four stack either row,
+                                    column or diagonal.</p>
+                                <a href="#" class="colored-btn mt-1">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row bg-3 pb-3 mb-5 pb-lg-3 mb-lg-3 gy-4 justify-content-around align-items-center">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-img">
+                                <img class="project-img" src="assets/project-4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-text">
+                                <span>Web Project</span>
+                                <h4>LSS Web Application</h4>
+                                <p>A full-stack web used to manage the reservation of books in library.</p>
+                                <a href="#" class="colored-btn mt-1">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="section bg-dark hidden" data-scroll-index="3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="contact-form">
+                            <h2 class="text-dark"> Get in Touch</h2>
+                            <form action="#">
+                                <div class="row gy-4 gx-3">
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label class="form-label">Name</label>
+                                            <input type="text" class="form-control" name="name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label class="form-label">Email</label>
+                                            <input type="email" class="form-control" name="email" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label class="form-label">Subject</label>
+                                            <input type="text" class="form-control" name="subject" required>
+                                        </div>
+                                    </div>     
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label class="form-label">Message</label>
+                                            <textarea name="message" rows="3" class="form-control" id="" required></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="colored-btn" type="submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="picturess" src="assets/get.png" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 py-2">
+                        <div class="nav justify-content-center justify-content-md-start">
+                            <a href="#"><i class="bx bxl-facebook"></i></a>
+                            <a href="#"><i class="bx bxl-instagram"></i></a>
+                            <a href="#"><i class="bx bxl-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 py-2 text-center text-md-end">
+                        <p class="m-0">Developed By Julius Yayain</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+   </main>
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="scrollIt.js" type="text/javascript"></script>
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings : ["Programmer", "Designer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            looped : true
+        });
+
+        $(function(){
+            $.scrollIt();
+          });
+    </script>
+</body>
+</html>
